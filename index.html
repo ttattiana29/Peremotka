@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Перемотка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="preload" href="/font/font1.woff" as="font">
+    <link rel="preload" href="/font/font4.woff" as="font">
+    <link href="https://fonts.cdnfonts.com/css/molot" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+    <div class="navbar flex">
+        <div class="div-logo">
+            <div class="logo flex">
+                <img class="logo-img" src="images/peremotka2.png" alt=""/>
+                <h1><a class="curs" href="index.html">Prmtk</a></h1>
+            </div>
+        </div>
+        <div class="wrappers" id="navi-list">
+            <div class="wrap">
+                <a href="posts.html">
+                    Публикации
+                </a>
+            </div>
+            <div class="wrap">
+                <a href="events.html">
+                    События
+                </a>
+            </div>
+            <div class="wrap">
+                <a href="#">
+                    Лаборатория
+                </a>
+            </div>
+            <div class="wrap">
+                <a href="person.html">
+                    Личный кабинет
+                </a>
+            </div>
+        </div>
+
+        <div class="menu" id="toggle-button" onclick="menu();">
+            <img class="logo-menu" src="images/menu.png">
+        </div>
+    </div>
+</div>
+
+<div class="banner">
+    <hr class="hr-dashed">
+    <div class="banner-text">
+        <span>
+            Peremotka
+        </span>
+    </div>
+</div>
+<hr class="hr-dashed2">
+<div class="main">
+    <div class="main-menu">
+        <div class="item m1">
+            Публикации
+        </div>
+        <div class="item m2">
+            События
+        </div>
+        <div class="item m3">
+            Магазин
+        </div>
+        <div class="item m4">
+            Лаборатория
+        </div>
+    </div>
+    <div class="about-us">
+        <div class="au_container">
+            <h2>
+                О НАС
+            </h2>
+            <p>
+                В нашей лаборатории мы все объединены любовью к пленочной фотографии.
+                Нам хочется не только предоставлять свои услуги, мы стремимся к созданию большого
+                пленочного коммьюнити, делимся накопленным опытом, знаниями и интересной информацией.
+            </p>
+            <p>
+                Вы всегда можете обратиться к нам за помощью или задать любой вопрос.
+                Мы обязательно постараемся помочь вам!
+            </p>
+        </div>
+    </div>
+    <div class="events">
+        <div class="event">
+            <img src="images/e1.jpg">
+            <div class="e-text">
+                <h2>DJ Bogdan Lofi(05.05)</h2>
+                <p>Слушаем музыку на проигрывателе Сбор гостей в 20:45 Начало в 21:00</p>
+                <p class="orange">Вход свободный</p>
+            </div>
+        </div>
+        <div class="event">
+            <img src="images/e2.jpg">
+            <div class="e-text">
+                <h2>Мир искусства(16.05)</h2>
+                <p>Поговорим об искусстве Германии Сбор гостей в 21:00 Начало в 21:15</p>
+                <p class="orange">Вход свободный</p>
+            </div>
+        </div>
+        <div class="event">
+            <img src="images/e3.jpg">
+            <div class="e-text">
+                <h2>Мастер-класс(29.05)</h2>
+                <p>Научимся красиво обрабатывать Сбор гостей в 20:45 Начало в 21:00</p>
+                <p class="orange">Вход свободный</p>
+            </div>
+        </div>
+    </div>
+    <a href="events.html"><div class="button"><b>Перейти</b></div></a>
+</div>
+<div class="footer">
+    <h5 class="">КОНТАКТНАЯ ИНФОРМАЦИЯ</h5>
+    <ul>
+        <li class="">г. Якутск</li>
+        <li class="">к / т: 8 (914) 236-50-80</li>
+        <li class="">e-mail: tanyafail@mail.com</li>
+    </ul>
+    <h5>© 2018 Created by "Реброва Татьяна"</h5>
+    <p class="time"></p>
+</div>
+<script src="menu.js">
+</script>
+</body>
+</html>
